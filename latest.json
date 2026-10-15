@@ -1,0 +1,570 @@
+{
+    "version":  "V1.3400",
+    "tag_name":  "V1.3400",
+    "name":  "MarketManagement V1.3400",
+    "body":  "# V1.3321 更新说明\n\n本次更新重点修正在线更新流程、本地发布脚本和打包同步逻辑，减少用户更新时误走外网源、安装卡住或版本文件不同步的问题。\n\n## 本次重点\n\n- 底层更新，增加了吴瑞赵青的用户\n\n## 使用提醒\n\n- 用户看到 GitHub 备用源提示时，只有主动选择“使用GitHub”才会切换；30 秒无操作会默认继续使用 Gitee。\n- 如果 Gitee 镜像刚同步完成但客户端暂时检测不到，请稍等后重新点击“检查更新”。\n- 正式发布前需要用当前版本重新运行 `本地打包工具/local_db_builder.py` 生成随包数据库，再执行本地或 GitHub Actions 打包。\n- Windows 用户仍建议从完整文件夹或桌面快捷方式启动，不要单独拖出 exe。\n",
+    "asset_name":  "MarketManagement.zip",
+    "asset_url":  "",
+    "asset_size":  61374659,
+    "sha256":  "6551ad68e571a231cd72eeaaa7b2e1240a9e604b6cf168b59531c3404b34b25d",
+    "sha256_url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/MarketManagement.zip.sha256",
+    "notes_url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/UPDATE_NOTES.md",
+    "notes_name":  "UPDATE_NOTES.md",
+    "chunks":  [
+                   {
+                       "index":  0,
+                       "name":  "chunks/MarketManagement.zip.part000",
+                       "size":  786432,
+                       "sha256":  "30937bdcfda4d6d6317f8ce308ab8138a9161ba2864dc06a5b23047d7c8e643a",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part000"
+                   },
+                   {
+                       "index":  1,
+                       "name":  "chunks/MarketManagement.zip.part001",
+                       "size":  786432,
+                       "sha256":  "a4e320bccc20ed7285896e1aaa3ba6cd615b5fc54dd19f95e0306bb7da92425a",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part001"
+                   },
+                   {
+                       "index":  2,
+                       "name":  "chunks/MarketManagement.zip.part002",
+                       "size":  786432,
+                       "sha256":  "b308b92a550fb7c9c26b08c10a5670b3aaebe15fd9607120b93ba7dfec330496",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part002"
+                   },
+                   {
+                       "index":  3,
+                       "name":  "chunks/MarketManagement.zip.part003",
+                       "size":  786432,
+                       "sha256":  "a56bfb9d7ae8304edc8423397042b937c7d1e7efa783caee8803ad507d10523c",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part003"
+                   },
+                   {
+                       "index":  4,
+                       "name":  "chunks/MarketManagement.zip.part004",
+                       "size":  786432,
+                       "sha256":  "a939b4b20860fc4b18b9f8c0d2cd8b4af9c70a38a15c656ff27428e60d1212b3",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part004"
+                   },
+                   {
+                       "index":  5,
+                       "name":  "chunks/MarketManagement.zip.part005",
+                       "size":  786432,
+                       "sha256":  "1235b4c1cd760d9253ea19c242aa341207d19cb5487cb6756a762af7b9460cae",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part005"
+                   },
+                   {
+                       "index":  6,
+                       "name":  "chunks/MarketManagement.zip.part006",
+                       "size":  786432,
+                       "sha256":  "7a4a5f24cb007bb98a22d46a8a2fbd2bb3dc1a0392c6e5e9ca0591e06c19b41b",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part006"
+                   },
+                   {
+                       "index":  7,
+                       "name":  "chunks/MarketManagement.zip.part007",
+                       "size":  786432,
+                       "sha256":  "ef401e065911157be553c2525a13e2cfe7d30345d83e41084d13881e128f687d",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part007"
+                   },
+                   {
+                       "index":  8,
+                       "name":  "chunks/MarketManagement.zip.part008",
+                       "size":  786432,
+                       "sha256":  "294c6949e66507dca3fe5ce1f6adea9cee94c33e4ac2a66a07018daa1076418d",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part008"
+                   },
+                   {
+                       "index":  9,
+                       "name":  "chunks/MarketManagement.zip.part009",
+                       "size":  786432,
+                       "sha256":  "c5156ff9521d62a2c4d522eff11be89195c762b4cb4a3b8bcb6b55ff70869f6d",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part009"
+                   },
+                   {
+                       "index":  10,
+                       "name":  "chunks/MarketManagement.zip.part010",
+                       "size":  786432,
+                       "sha256":  "da2db48893b3a01e0f1e5124d83431cc425c58c3b717947a79e01171b6d8fbbc",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part010"
+                   },
+                   {
+                       "index":  11,
+                       "name":  "chunks/MarketManagement.zip.part011",
+                       "size":  786432,
+                       "sha256":  "721200ad1a91414c6541f69405cd4746fc1c953be292bf37c793dbf1fefd5817",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part011"
+                   },
+                   {
+                       "index":  12,
+                       "name":  "chunks/MarketManagement.zip.part012",
+                       "size":  786432,
+                       "sha256":  "f218ab6458c0e59b2d7a2c181af8271d48c87631c783565286a68751d94098a5",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part012"
+                   },
+                   {
+                       "index":  13,
+                       "name":  "chunks/MarketManagement.zip.part013",
+                       "size":  786432,
+                       "sha256":  "b47ec2c1f28066b45f59a2911450aa3893afa64701d81cb31858c384edd72954",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part013"
+                   },
+                   {
+                       "index":  14,
+                       "name":  "chunks/MarketManagement.zip.part014",
+                       "size":  786432,
+                       "sha256":  "18edd7642aadfdee00837e350a9b153dfed0ec66a880617758c0da5226f697ab",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part014"
+                   },
+                   {
+                       "index":  15,
+                       "name":  "chunks/MarketManagement.zip.part015",
+                       "size":  786432,
+                       "sha256":  "075591530962f57c806fb9fe1c741036991c007701cd6e7628b7c47e1c9f6860",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part015"
+                   },
+                   {
+                       "index":  16,
+                       "name":  "chunks/MarketManagement.zip.part016",
+                       "size":  786432,
+                       "sha256":  "92381c06d93c255f9f74f967d4f63e07efb42375f7bdc932df31454883e6a788",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part016"
+                   },
+                   {
+                       "index":  17,
+                       "name":  "chunks/MarketManagement.zip.part017",
+                       "size":  786432,
+                       "sha256":  "0d68806efd64f703741325de572b0d846788babc179035c07e3a7b50b4fa1459",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part017"
+                   },
+                   {
+                       "index":  18,
+                       "name":  "chunks/MarketManagement.zip.part018",
+                       "size":  786432,
+                       "sha256":  "6848bc1737c868bb6cd293e5fbc4b91cbc8eb09ec3fdb9743615a46d2a3d67b1",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part018"
+                   },
+                   {
+                       "index":  19,
+                       "name":  "chunks/MarketManagement.zip.part019",
+                       "size":  786432,
+                       "sha256":  "25762cc350f0c74265c375ed45ba514b5a9bb993a4404f4e693d1ec045f38b7b",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part019"
+                   },
+                   {
+                       "index":  20,
+                       "name":  "chunks/MarketManagement.zip.part020",
+                       "size":  786432,
+                       "sha256":  "1a36014993cac2f5639295230b6ced3135e5419efa54fb7b16e2bbdaa28cc2e9",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part020"
+                   },
+                   {
+                       "index":  21,
+                       "name":  "chunks/MarketManagement.zip.part021",
+                       "size":  786432,
+                       "sha256":  "133ed51ebd2d9e68831a5e43b318b574fd24bb43b4bccbf1591232ed8716dd9b",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part021"
+                   },
+                   {
+                       "index":  22,
+                       "name":  "chunks/MarketManagement.zip.part022",
+                       "size":  786432,
+                       "sha256":  "d2e6fb3c07a415cbb78ddd6024e7ac21ae26024062e18b2867218e6ac471dd92",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part022"
+                   },
+                   {
+                       "index":  23,
+                       "name":  "chunks/MarketManagement.zip.part023",
+                       "size":  786432,
+                       "sha256":  "0d7f0db0fd3971553bf8f5d7af2ac3cf9c4898c4791d780fbc3a316616e0d46d",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part023"
+                   },
+                   {
+                       "index":  24,
+                       "name":  "chunks/MarketManagement.zip.part024",
+                       "size":  786432,
+                       "sha256":  "bd1399f6c086e21607272bf11b568362270d4fcb3ad31921bea29f22dcc03b38",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part024"
+                   },
+                   {
+                       "index":  25,
+                       "name":  "chunks/MarketManagement.zip.part025",
+                       "size":  786432,
+                       "sha256":  "2ebc095d95abbd57e2978f2bdbffc07fb507f792bccfdafc616c5a98c9378fce",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part025"
+                   },
+                   {
+                       "index":  26,
+                       "name":  "chunks/MarketManagement.zip.part026",
+                       "size":  786432,
+                       "sha256":  "70390914e19f538150193c42adfcec8e68c9a75d94609f1ae6bac9c68c37578a",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part026"
+                   },
+                   {
+                       "index":  27,
+                       "name":  "chunks/MarketManagement.zip.part027",
+                       "size":  786432,
+                       "sha256":  "3c6225d9585c108e45ba135995de7f5273ba6aeec6303ce01e4985eef65a1fda",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part027"
+                   },
+                   {
+                       "index":  28,
+                       "name":  "chunks/MarketManagement.zip.part028",
+                       "size":  786432,
+                       "sha256":  "4adacd0ac9a47045aed9d15bd05dffc0684458e9ff603449a7b23e574f7f304d",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part028"
+                   },
+                   {
+                       "index":  29,
+                       "name":  "chunks/MarketManagement.zip.part029",
+                       "size":  786432,
+                       "sha256":  "e2f0d351db341bc8d49c468f52c74d297f820daca3634e5988fd13ac2bcff9a6",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part029"
+                   },
+                   {
+                       "index":  30,
+                       "name":  "chunks/MarketManagement.zip.part030",
+                       "size":  786432,
+                       "sha256":  "e9dc563bf984e76962896d1e9c604193efb39c11feb27e0fad486a80270a09e9",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part030"
+                   },
+                   {
+                       "index":  31,
+                       "name":  "chunks/MarketManagement.zip.part031",
+                       "size":  786432,
+                       "sha256":  "426a82ee34ed004ee4cd3e5b7cd191f355a0db53fa61ee2d67f31f873fe7fcd2",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part031"
+                   },
+                   {
+                       "index":  32,
+                       "name":  "chunks/MarketManagement.zip.part032",
+                       "size":  786432,
+                       "sha256":  "326a9d9c6e3b6d078daf79da764f681652c59432f49db15d84907169ad9b79dd",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part032"
+                   },
+                   {
+                       "index":  33,
+                       "name":  "chunks/MarketManagement.zip.part033",
+                       "size":  786432,
+                       "sha256":  "3048eea2542a2cc6a8303221242c2f8fafe4355888ea88bc7140741a3313cc54",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part033"
+                   },
+                   {
+                       "index":  34,
+                       "name":  "chunks/MarketManagement.zip.part034",
+                       "size":  786432,
+                       "sha256":  "699aeee87cbb14bd5458cdb062f6b4b5c38dee25790f67ed674b8eeb8cfa851b",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part034"
+                   },
+                   {
+                       "index":  35,
+                       "name":  "chunks/MarketManagement.zip.part035",
+                       "size":  786432,
+                       "sha256":  "32c87b2c21d7c9ba0edc84678aea931deb2013e28d8b06e53c48f945aad4ebd5",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part035"
+                   },
+                   {
+                       "index":  36,
+                       "name":  "chunks/MarketManagement.zip.part036",
+                       "size":  786432,
+                       "sha256":  "1c6a18f5d4e095e57a754af9f782fae6a80285a112a91fcc0bab0e90ed0ce885",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part036"
+                   },
+                   {
+                       "index":  37,
+                       "name":  "chunks/MarketManagement.zip.part037",
+                       "size":  786432,
+                       "sha256":  "6cb252289edc10efd858a35acc3495e655fd38cfe9d599f3b280ac3e4669e075",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part037"
+                   },
+                   {
+                       "index":  38,
+                       "name":  "chunks/MarketManagement.zip.part038",
+                       "size":  786432,
+                       "sha256":  "737f9b33b56c4a0dfd2185aaacb7a2acbdfec7dc1fef87ff0a7ae7b62674a7d1",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part038"
+                   },
+                   {
+                       "index":  39,
+                       "name":  "chunks/MarketManagement.zip.part039",
+                       "size":  786432,
+                       "sha256":  "10c9d75fff77f5b65f6e36818c558b40368ca1c01afc3d1cc765fc15e98b36ef",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part039"
+                   },
+                   {
+                       "index":  40,
+                       "name":  "chunks/MarketManagement.zip.part040",
+                       "size":  786432,
+                       "sha256":  "29dc237ecf8a07c0d3ab188ab251f6f3b45cb845a4ae090a3f0f291b7bf86796",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part040"
+                   },
+                   {
+                       "index":  41,
+                       "name":  "chunks/MarketManagement.zip.part041",
+                       "size":  786432,
+                       "sha256":  "47ef1b186790ea5b3012b0b63bfbb7a8c22bfa9ef8fc7006126869fb67ef0473",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part041"
+                   },
+                   {
+                       "index":  42,
+                       "name":  "chunks/MarketManagement.zip.part042",
+                       "size":  786432,
+                       "sha256":  "c172992ee5aeab844c8ca99d4a7072d8317591b61a6821073cfcba8cdbd0b19f",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part042"
+                   },
+                   {
+                       "index":  43,
+                       "name":  "chunks/MarketManagement.zip.part043",
+                       "size":  786432,
+                       "sha256":  "13e48bc24332ef61e83b2aa8770a1ad259dfc823c742cf84dde8586c93700a6e",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part043"
+                   },
+                   {
+                       "index":  44,
+                       "name":  "chunks/MarketManagement.zip.part044",
+                       "size":  786432,
+                       "sha256":  "81299e7985190423595528378aa4e1a9ebb0a62b97b147b7cb57ed6335a96ac8",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part044"
+                   },
+                   {
+                       "index":  45,
+                       "name":  "chunks/MarketManagement.zip.part045",
+                       "size":  786432,
+                       "sha256":  "c19b6ec0c63cae17c7bd29d3bfa3e4475452cd5c88b6354149f65a1ad9200fe0",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part045"
+                   },
+                   {
+                       "index":  46,
+                       "name":  "chunks/MarketManagement.zip.part046",
+                       "size":  786432,
+                       "sha256":  "7de8effcd95b568fee2b8ab35ad30fc72652c97d0157c44d35159e6e7b210638",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part046"
+                   },
+                   {
+                       "index":  47,
+                       "name":  "chunks/MarketManagement.zip.part047",
+                       "size":  786432,
+                       "sha256":  "799a78217d09338af30f51231a7c61be8072152ea4f4311c3f61ecf9b36eba55",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part047"
+                   },
+                   {
+                       "index":  48,
+                       "name":  "chunks/MarketManagement.zip.part048",
+                       "size":  786432,
+                       "sha256":  "ae2c1b93be5b40d608a9bb9ecf977a86d2d0e263fe093897fe4511a703521dd9",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part048"
+                   },
+                   {
+                       "index":  49,
+                       "name":  "chunks/MarketManagement.zip.part049",
+                       "size":  786432,
+                       "sha256":  "4a201ab60e99534adcf6e016736e5ddb94c182e6752b93800eeec104f5687124",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part049"
+                   },
+                   {
+                       "index":  50,
+                       "name":  "chunks/MarketManagement.zip.part050",
+                       "size":  786432,
+                       "sha256":  "66deb46cca8bfcb8cbac55ee31ab7d43d8a21860205a5de680724f44ebbaeae3",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part050"
+                   },
+                   {
+                       "index":  51,
+                       "name":  "chunks/MarketManagement.zip.part051",
+                       "size":  786432,
+                       "sha256":  "10ac59a5aa9f036925868a13ef1b6ea97643a2e7e8ca1983d472ac94ad00a537",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part051"
+                   },
+                   {
+                       "index":  52,
+                       "name":  "chunks/MarketManagement.zip.part052",
+                       "size":  786432,
+                       "sha256":  "6e2df16ace4151d23a9f4f748ce92a76b808e858b806a6fc3a9f79b56891a4aa",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part052"
+                   },
+                   {
+                       "index":  53,
+                       "name":  "chunks/MarketManagement.zip.part053",
+                       "size":  786432,
+                       "sha256":  "576532aa7969bd211f31298dfb65d03eb5adac915434875659deb222dfa13f1b",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part053"
+                   },
+                   {
+                       "index":  54,
+                       "name":  "chunks/MarketManagement.zip.part054",
+                       "size":  786432,
+                       "sha256":  "e42394990b17cb1ef53a07b578938574c619a745447673e1e95f853a5361333b",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part054"
+                   },
+                   {
+                       "index":  55,
+                       "name":  "chunks/MarketManagement.zip.part055",
+                       "size":  786432,
+                       "sha256":  "423653fb1fa7ea7aae0978c1398b8cbf507d7898bc130b44327a22b3b34fa44c",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part055"
+                   },
+                   {
+                       "index":  56,
+                       "name":  "chunks/MarketManagement.zip.part056",
+                       "size":  786432,
+                       "sha256":  "8cb4b97aa5df28d5777d89d8127b96f69e44c98feeab96d9121e924ac23d1c10",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part056"
+                   },
+                   {
+                       "index":  57,
+                       "name":  "chunks/MarketManagement.zip.part057",
+                       "size":  786432,
+                       "sha256":  "8d4230ce7c7cfcf98bbe638ce72256f452bb96022202e3013ed0cbd10b649c4a",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part057"
+                   },
+                   {
+                       "index":  58,
+                       "name":  "chunks/MarketManagement.zip.part058",
+                       "size":  786432,
+                       "sha256":  "3d4faa4d741e7063f4fe5d34bd6f26b1fd9f9ac752c00605b9d2d37444811b22",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part058"
+                   },
+                   {
+                       "index":  59,
+                       "name":  "chunks/MarketManagement.zip.part059",
+                       "size":  786432,
+                       "sha256":  "75f2ad44e2df9057808f3ebbf1a1a54ebbd081462cc4a7006063dd1f84f7eb18",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part059"
+                   },
+                   {
+                       "index":  60,
+                       "name":  "chunks/MarketManagement.zip.part060",
+                       "size":  786432,
+                       "sha256":  "5eabc0ad63292fe0cbc2c835fee28fd4d10a79e9213909c4e1e8709f2213182b",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part060"
+                   },
+                   {
+                       "index":  61,
+                       "name":  "chunks/MarketManagement.zip.part061",
+                       "size":  786432,
+                       "sha256":  "3014ae1cafd6ace5305baad2138701573cf9ceaea62f9db3e4670232b28c4848",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part061"
+                   },
+                   {
+                       "index":  62,
+                       "name":  "chunks/MarketManagement.zip.part062",
+                       "size":  786432,
+                       "sha256":  "701c78bb819ff5167355253d88c5a2251bd1e45fdbcf35c70db8c5801a4bf011",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part062"
+                   },
+                   {
+                       "index":  63,
+                       "name":  "chunks/MarketManagement.zip.part063",
+                       "size":  786432,
+                       "sha256":  "c9bf67ca10175eb6365cd89172ce8abb728ecec52971e58e15dcc1af1dc593ba",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part063"
+                   },
+                   {
+                       "index":  64,
+                       "name":  "chunks/MarketManagement.zip.part064",
+                       "size":  786432,
+                       "sha256":  "f1b1a26c5386794308680d17e6ab0e0f32431ff12c3d4e8307d573e25e6ff5a7",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part064"
+                   },
+                   {
+                       "index":  65,
+                       "name":  "chunks/MarketManagement.zip.part065",
+                       "size":  786432,
+                       "sha256":  "266a4084db59b501201baf2de128104cf012f952b956b7f99f2f7009931176c8",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part065"
+                   },
+                   {
+                       "index":  66,
+                       "name":  "chunks/MarketManagement.zip.part066",
+                       "size":  786432,
+                       "sha256":  "e7b666a02e481e53f1529ffabc86e5790fe4a1e693b4915b338acba0ff8e8bb7",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part066"
+                   },
+                   {
+                       "index":  67,
+                       "name":  "chunks/MarketManagement.zip.part067",
+                       "size":  786432,
+                       "sha256":  "666dcaddf723850a52dc4cadc2b4cad4caadab326b4589e230c1ba03c837e793",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part067"
+                   },
+                   {
+                       "index":  68,
+                       "name":  "chunks/MarketManagement.zip.part068",
+                       "size":  786432,
+                       "sha256":  "d6b15c2d86d6b9d41cd15afebc365ac21eff12b48ef5fe2d0408399c7b8b90da",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part068"
+                   },
+                   {
+                       "index":  69,
+                       "name":  "chunks/MarketManagement.zip.part069",
+                       "size":  786432,
+                       "sha256":  "63a859a8eae7f78a7827527e78d13e24211086bfe7b7cc686206fee2fce75c2d",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part069"
+                   },
+                   {
+                       "index":  70,
+                       "name":  "chunks/MarketManagement.zip.part070",
+                       "size":  786432,
+                       "sha256":  "430644fdfd5699601b9d4d85697c24daff30dcdef1642ed86589b144058fd613",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part070"
+                   },
+                   {
+                       "index":  71,
+                       "name":  "chunks/MarketManagement.zip.part071",
+                       "size":  786432,
+                       "sha256":  "da9e1ac5845a71a965eeda7b69850a1f157f0b7c51779e7f4503932c427d281a",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part071"
+                   },
+                   {
+                       "index":  72,
+                       "name":  "chunks/MarketManagement.zip.part072",
+                       "size":  786432,
+                       "sha256":  "75c4cc39e4dc1ad1158f2aea948a61d67cf269079a5c78deec28c276f3b27256",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part072"
+                   },
+                   {
+                       "index":  73,
+                       "name":  "chunks/MarketManagement.zip.part073",
+                       "size":  786432,
+                       "sha256":  "3da74de95fc28977292e4488a2d2c055064151fe2bb53d80c20ff61e3e843199",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part073"
+                   },
+                   {
+                       "index":  74,
+                       "name":  "chunks/MarketManagement.zip.part074",
+                       "size":  786432,
+                       "sha256":  "79c9da4fa76f084261c76e765d9640201e2ee7a12e5d6f9a622a9907fb6b36fa",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part074"
+                   },
+                   {
+                       "index":  75,
+                       "name":  "chunks/MarketManagement.zip.part075",
+                       "size":  786432,
+                       "sha256":  "71c9c2064812c2100a848ab7f5edf2279fcd3ee54489fdb42c672def6b36fcf6",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part075"
+                   },
+                   {
+                       "index":  76,
+                       "name":  "chunks/MarketManagement.zip.part076",
+                       "size":  786432,
+                       "sha256":  "c82d0aee6fd06b04ba2aa413429f68b36cc8145b565e4f8041e8563cc4c22a11",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part076"
+                   },
+                   {
+                       "index":  77,
+                       "name":  "chunks/MarketManagement.zip.part077",
+                       "size":  786432,
+                       "sha256":  "f7ad136631afde82118cfd74862c42707dfcf9ef9965ef3fa740d81c015cc30b",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part077"
+                   },
+                   {
+                       "index":  78,
+                       "name":  "chunks/MarketManagement.zip.part078",
+                       "size":  32963,
+                       "sha256":  "7269e11fb6b4559889d76331df0a3f5e1d24d483ed4c8a5952a3e72d575cd6af",
+                       "url":  "https://gitee.com/GloomyRoad/update-release/raw/release-files/chunks/MarketManagement.zip.part078"
+                   }
+               ],
+    "html_url":  "https://gitee.com/GloomyRoad/update-release/tree/release-files",
+    "updated_at":  "2026-10-15T02:00:44Z"
+}
